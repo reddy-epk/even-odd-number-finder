@@ -8,7 +8,7 @@ class EvenOddApp extends Component {
 
   toRandom = () => {
     const randomNum = this.NewRandomNum()
-    this.setState(prevState => ({count: prevState.count + randomNum}))
+    this.setState(prevState => ({count: prevState.count = randomNum}))
   }
 
   render() {
